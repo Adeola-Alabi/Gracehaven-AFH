@@ -1,0 +1,42 @@
+.About-intro{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    width:90vw;
+    margin:auto;
+    margin-bottom: 10vh;
+    padding-top:10vh;
+}
+
+.About-intro img{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.About-Blurb{
+    display: flex;
+    flex-direction: column;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-left:2vw;
+    padding-right: 2vw;
+}
+
+
+.Banner{
+    height:5vh;
+    border-top:solid;
+    border-bottom:solid;
+    border-color:rgb(199, 199, 199);
+}
+
+.Banner h2{
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom:0px;
+    height: inherit;
+    width:inherit;
+}

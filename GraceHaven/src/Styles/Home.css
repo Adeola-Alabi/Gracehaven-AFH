@@ -1,0 +1,83 @@
+p{
+    color: white;
+}
+
+.Home{
+    width:inherit;
+    overflow:hidden;
+}
+
+.Contact-Bar{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:8vh;
+    height:15vh;
+}
+
+#House{
+    position:relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    width:inherit;
+    padding:0;
+    width:100vw;
+}
+
+#High-Five{
+    height:500px;
+    width:40vw;
+    margin-left:auto;
+    border-radius: 5px;
+}
+
+#blurb{
+    margin:auto;
+    width: 40vw;
+    height: fit-content;
+}
+
+#blurb *{
+    margin:auto;
+}
+
+#blurb h2{
+    padding-bottom: 2vh;
+    border-bottom: solid;
+    border-color:white;
+}
+
+#blurb p{
+    padding-top: 2vh;
+}
+
+
+.Left{
+    grid-area: 'Left';
+    margin-left:auto;
+    margin-right:10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width:20vw;
+    border-right: solid;
+    border-color: white;
+}
+
+.Left img{
+    width:70%;
+}
+
+.Right{
+    grid-area: 'Right';
+    margin-left:10px;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width:100%;
+    text-align: left;
+}
+
+.about{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    padding:5vh;
+}

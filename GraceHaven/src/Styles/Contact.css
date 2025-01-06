@@ -1,0 +1,24 @@
+.Bookshelf{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap:1vw;
+ width: 75%;
+ margin: auto;
+}
+
+.Contacts{
+    margin-left:auto;
+    width:50%;
+}
+.ContactInfo{
+    padding:5px;
+}
+
+.ContactInfo h5{
+    font-size:medium;
+}
+
+#map{
+    width:50%;
+    overflow: hidden;
+}

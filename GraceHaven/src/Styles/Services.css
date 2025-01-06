@@ -1,0 +1,39 @@
+.Services{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width:60%;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Services ul{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-right: 1vw;
+}
+
+#ManWithKid{
+    height: inherit;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-left: 1vw;
+}
+
+#ManWithKid img{
+    padding: 20px;
+    height: inherit;
+    width:30vw;
+    border-radius: 5px;
+}
+
+#Landing{
+    padding-bottom: 20vh;
+}
+ #Hoyer{
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    width:60%;
+    margin:auto;
+ }
